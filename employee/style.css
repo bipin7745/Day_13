@@ -1,0 +1,18 @@
+   html {
+      scroll-behavior: smooth;
+    }
+    section {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+   
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  #login, #signup {
+    margin-right: 0; /* Remove right margin for buttons */
+    margin-top: 10px; /* Add top margin for buttons */
+  }
+}
